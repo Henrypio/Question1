@@ -182,20 +182,25 @@
 // console.log(maxValue(Math.max(2, 3, 4, 5, 6)));
 
  
-function multiplyValues(arr){
+// function multiplyValues(arr){
   
-  let array = []
-  let newarr =[]
-  for(let i=0; i < arr.length; i++){
-    array.push(arr[i] * 2);
-  }
- newarr=[...array.slice(0, 1),...array]
-  return newarr;
-  ;
+//   let array = []
+//   let newarr =[]
+//   for(let i=0; i < arr.length; i++){
+//     array.push(arr[i] * 2);
+//   }
+//  newarr=[...array.slice(0, 1),...array]
+//   return newarr;
+//   ;
+  
+// }
+// console.log(multiplyValues([1, 2, 3, 4]))
+
+function missingNumber(arr){
+let newarr=[];
+const array=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+for(let i = 0; i < arr.length; i++){
   
 }
-console.log(multiplyValues([1, 2, 3, 4]))
-
-
-
-
+}
+console.log(missingNumber([1,2,3,4,6,7,8,9]));
